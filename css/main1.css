@@ -1,0 +1,93 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,600';
+html, body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #494949;
+    font-size: 12px;
+    line-height: 1.75em;
+  }
+
+  @media (min-width: 600px) {
+    html, body {
+      font-size: calc( 12px + (14 - 12) * ((100vw - 600px) / (1140 - 600)));
+    }
+  }
+  
+  @media (min-width: 1140px) {
+    html, body {
+      font-size: 14px;
+    }
+  }
+
+  h1{
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      color: #292929;
+      clear: both;
+      font-size: 32.8543898685px;
+      margin-top: 1.9424008253em;
+      line-height: 1.1308809903em;
+      margin-bottom: 3.1884801651em;
+  }
+
+  .section, .panel, form{
+      background-color: #d1d1d1;
+  }
+
+  label {
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding-bottom: 0.21875em;
+    margin-bottom: -0.125em;
+    padding: 0.2em 0.6em;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    display: block;
+    max-width: 100%;
+    padding: 0.4375em;
+    font-size: 12px;
+    margin-bottom: 1.3125em;
+  }
+  
+  @media (min-width: 600px) {
+    input[type="text"], input[type="email"], input[type="password"], textarea {
+      font-size: calc( 12px + (14 - 12) * ((100vw - 600px) / (1140 - 600)));
+    }
+  }
+  
+  @media (min-width: 1140px) {
+    input[type="text"], input[type="email"], input[type="password"], textarea {
+      font-size: 14px;
+      margin-bottom: 0.546875em;
+    }
+  }
+  
+  input[type="submit"], button {
+    /* display: block; */
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0.4375em 1.75em;
+    margin-bottom: 0;
+  }
+  
+  @media (min-width: 600px) {
+    input[type="submit"], button {
+      font-size: calc( 12px + (14 - 12) * ((100vw - 600px) / (1140 - 600)));
+    }
+  }
+  
+  @media (min-width: 1140px) {
+    input[type="submit"], button {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+  }
+
+  
+
+
+ 
